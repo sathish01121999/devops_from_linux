@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end("Hello from DevOps Pipeline 🚀 --> First DevOps output via Kali Linux");
+    res.end("Modified DevOps output to check the latest changes --> First DevOps output via Kali Linux");
 });
 
 server.listen(3000, () => {
