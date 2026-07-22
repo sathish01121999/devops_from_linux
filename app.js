@@ -20,7 +20,7 @@ const server = http.createServer(async (req, res) => {
 
     counter.inc();
 
-    res.end("Doing monitoring via Prometheus and Grafana --> Watcha!");
+    res.end("I just uninstalled PUBG to revisit you, what's up!");
 });
 
 server.listen(3003, () => {
